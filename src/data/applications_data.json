@@ -1,0 +1,443 @@
+{
+  "applications": [
+    {
+      "id": "enterprise-web-portal",
+      "name": "Enterprise Web Portal",
+      "type": "Web Application",
+      "technology": "Angular 16/Spring Boot/PostgreSQL",
+      "complexity": "High",
+      "criticality": "Critical",
+      "totalScore": 8.2,
+      "percentage": 82.0,
+      "maturityLevel": "Level 4: Quantitative",
+      "maturityLevelNumber": 4,
+      "riskLevel": "Low",
+      "automationROI": "Very High",
+      "categoryScores": {
+        "Automation Implementation": 8.5,
+        "Technology & Architecture": 8.8,
+        "Test Coverage & Quality": 8.2,
+        "Security & Compliance": 9.1,
+        "Performance & Reliability": 7.9,
+        "Business Impact & ROI": 8.7,
+        "Team & Process Integration": 7.8,
+        "Data Management": 8.1,
+        "Monitoring & Observability": 8.4,
+        "Strategic Alignment": 8.0,
+        "AI/ML Testing Capabilities": 6.8
+      },
+      "detailedMetrics": {
+        "testExecutionFrequency": "Continuous",
+        "codeCoverage": 87.5,
+        "defectDetectionRate": 94.2,
+        "meanTimeToRepair": 1.8,
+        "automationCoverage": 85.3,
+        "falsePositiveRate": 2.1,
+        "testMaintainability": 8.4,
+        "businessValue": "High",
+        "teamMaturity": "Advanced",
+        "strategicAlignment": "Excellent"
+      },
+      "recommendations": [
+        "Enhance AI-driven test case generation",
+        "Implement advanced performance monitoring",
+        "Expand API test coverage to 95%"
+      ],
+      "riskFactors": [
+        "Complex integration dependencies",
+        "High business criticality requires zero downtime"
+      ],
+      "businessMetrics": {
+        "annualROI": 2400000,
+        "timeSavedPerMonth": 240,
+        "defectsPrevented": 45,
+        "costPerDefect": 15000
+      }
+    },
+    {
+      "id": "mobile-banking-app",
+      "name": "Mobile Banking Application",
+      "type": "Mobile Native",
+      "technology": "React Native/Node.js/MongoDB",
+      "complexity": "Very High",
+      "criticality": "Critical",
+      "totalScore": 7.1,
+      "percentage": 71.0,
+      "maturityLevel": "Level 4: Quantitative",
+      "maturityLevelNumber": 4,
+      "riskLevel": "Medium",
+      "automationROI": "High",
+      "categoryScores": {
+        "Automation Implementation": 7.2,
+        "Technology & Architecture": 7.8,
+        "Test Coverage & Quality": 6.9,
+        "Security & Compliance": 9.3,
+        "Performance & Reliability": 7.5,
+        "Business Impact & ROI": 7.8,
+        "Team & Process Integration": 6.5,
+        "Data Management": 7.1,
+        "Monitoring & Observability": 6.8,
+        "Strategic Alignment": 7.2,
+        "AI/ML Testing Capabilities": 5.9
+      },
+      "detailedMetrics": {
+        "testExecutionFrequency": "Daily",
+        "codeCoverage": 76.2,
+        "defectDetectionRate": 88.7,
+        "meanTimeToRepair": 3.2,
+        "automationCoverage": 71.8,
+        "falsePositiveRate": 4.5,
+        "testMaintainability": 7.1,
+        "businessValue": "Very High",
+        "teamMaturity": "Intermediate",
+        "strategicAlignment": "Good"
+      },
+      "recommendations": [
+        "Implement comprehensive device testing matrix",
+        "Enhance security testing automation",
+        "Improve team collaboration processes"
+      ],
+      "riskFactors": [
+        "Device fragmentation complexity",
+        "Regulatory compliance requirements",
+        "High user volume stress testing"
+      ],
+      "businessMetrics": {
+        "annualROI": 1800000,
+        "timeSavedPerMonth": 180,
+        "defectsPrevented": 32,
+        "costPerDefect": 12000
+      }
+    },
+    {
+      "id": "payment-processing-api",
+      "name": "Payment Processing API",
+      "type": "API/Microservice",
+      "technology": "Java Spring/Kubernetes/Redis",
+      "complexity": "High",
+      "criticality": "Critical",
+      "totalScore": 8.8,
+      "percentage": 88.0,
+      "maturityLevel": "Level 5: Optimizing",
+      "maturityLevelNumber": 5,
+      "riskLevel": "Very Low",
+      "automationROI": "Very High",
+      "categoryScores": {
+        "Automation Implementation": 9.2,
+        "Technology & Architecture": 9.1,
+        "Test Coverage & Quality": 8.9,
+        "Security & Compliance": 9.5,
+        "Performance & Reliability": 8.7,
+        "Business Impact & ROI": 9.0,
+        "Team & Process Integration": 8.5,
+        "Data Management": 8.8,
+        "Monitoring & Observability": 8.9,
+        "Strategic Alignment": 8.6,
+        "AI/ML Testing Capabilities": 7.5
+      },
+      "detailedMetrics": {
+        "testExecutionFrequency": "Continuous",
+        "codeCoverage": 94.1,
+        "defectDetectionRate": 97.8,
+        "meanTimeToRepair": 0.9,
+        "automationCoverage": 92.5,
+        "falsePositiveRate": 1.2,
+        "testMaintainability": 9.1,
+        "businessValue": "Very High",
+        "teamMaturity": "Expert",
+        "strategicAlignment": "Excellent"
+      },
+      "recommendations": [
+        "Expand chaos engineering practices",
+        "Implement AI-powered anomaly detection",
+        "Enhance contract testing coverage"
+      ],
+      "riskFactors": [
+        "PCI DSS compliance requirements",
+        "High-frequency transaction processing"
+      ],
+      "businessMetrics": {
+        "annualROI": 3200000,
+        "timeSavedPerMonth": 320,
+        "defectsPrevented": 58,
+        "costPerDefect": 20000
+      }
+    },
+    {
+      "id": "customer-support-platform",
+      "name": "Customer Support Platform",
+      "type": "Web Application",
+      "technology": "Vue.js/Python Django/PostgreSQL",
+      "complexity": "Medium",
+      "criticality": "High",
+      "totalScore": 6.4,
+      "percentage": 64.0,
+      "maturityLevel": "Level 3: Defined",
+      "maturityLevelNumber": 3,
+      "riskLevel": "Medium",
+      "automationROI": "Medium",
+      "categoryScores": {
+        "Automation Implementation": 6.8,
+        "Technology & Architecture": 7.2,
+        "Test Coverage & Quality": 6.1,
+        "Security & Compliance": 6.9,
+        "Performance & Reliability": 6.3,
+        "Business Impact & ROI": 6.7,
+        "Team & Process Integration": 5.9,
+        "Data Management": 6.5,
+        "Monitoring & Observability": 6.2,
+        "Strategic Alignment": 6.8,
+        "AI/ML Testing Capabilities": 5.0
+      },
+      "detailedMetrics": {
+        "testExecutionFrequency": "Weekly",
+        "codeCoverage": 68.3,
+        "defectDetectionRate": 79.4,
+        "meanTimeToRepair": 6.1,
+        "automationCoverage": 58.7,
+        "falsePositiveRate": 7.8,
+        "testMaintainability": 6.2,
+        "businessValue": "Medium",
+        "teamMaturity": "Developing",
+        "strategicAlignment": "Good"
+      },
+      "recommendations": [
+        "Establish automated regression testing",
+        "Improve test data management practices",
+        "Enhance team training programs"
+      ],
+      "riskFactors": [
+        "Limited automation expertise",
+        "Legacy system integrations",
+        "Inconsistent testing practices"
+      ],
+      "businessMetrics": {
+        "annualROI": 850000,
+        "timeSavedPerMonth": 85,
+        "defectsPrevented": 18,
+        "costPerDefect": 8000
+      }
+    },
+    {
+      "id": "inventory-management-system",
+      "name": "Inventory Management System",
+      "type": "Desktop Enterprise",
+      "technology": ".NET Core/SQL Server/WPF",
+      "complexity": "Medium",
+      "criticality": "High",
+      "totalScore": 5.8,
+      "percentage": 58.0,
+      "maturityLevel": "Level 3: Defined",
+      "maturityLevelNumber": 3,
+      "riskLevel": "High",
+      "automationROI": "Low",
+      "categoryScores": {
+        "Automation Implementation": 5.2,
+        "Technology & Architecture": 6.8,
+        "Test Coverage & Quality": 5.5,
+        "Security & Compliance": 6.1,
+        "Performance & Reliability": 5.9,
+        "Business Impact & ROI": 5.8,
+        "Team & Process Integration": 5.1,
+        "Data Management": 6.2,
+        "Monitoring & Observability": 5.4,
+        "Strategic Alignment": 5.7,
+        "AI/ML Testing Capabilities": 4.1
+      },
+      "detailedMetrics": {
+        "testExecutionFrequency": "Monthly",
+        "codeCoverage": 52.7,
+        "defectDetectionRate": 71.2,
+        "meanTimeToRepair": 12.5,
+        "automationCoverage": 35.8,
+        "falsePositiveRate": 12.3,
+        "testMaintainability": 5.1,
+        "businessValue": "High",
+        "teamMaturity": "Basic",
+        "strategicAlignment": "Fair"
+      },
+      "recommendations": [
+        "Modernize testing infrastructure",
+        "Implement automated UI testing",
+        "Establish CI/CD pipeline"
+      ],
+      "riskFactors": [
+        "Legacy technology stack",
+        "Manual testing bottlenecks",
+        "Limited automation skills"
+      ],
+      "businessMetrics": {
+        "annualROI": 420000,
+        "timeSavedPerMonth": 42,
+        "defectsPrevented": 12,
+        "costPerDefect": 6000
+      }
+    },
+    {
+      "id": "analytics-dashboard",
+      "name": "Business Analytics Dashboard",
+      "type": "Web Application",
+      "technology": "React/Python FastAPI/ClickHouse",
+      "complexity": "High",
+      "criticality": "Medium",
+      "totalScore": 7.6,
+      "percentage": 76.0,
+      "maturityLevel": "Level 4: Quantitative",
+      "maturityLevelNumber": 4,
+      "riskLevel": "Low",
+      "automationROI": "High",
+      "categoryScores": {
+        "Automation Implementation": 7.8,
+        "Technology & Architecture": 8.2,
+        "Test Coverage & Quality": 7.4,
+        "Security & Compliance": 7.1,
+        "Performance & Reliability": 8.0,
+        "Business Impact & ROI": 7.9,
+        "Team & Process Integration": 7.2,
+        "Data Management": 8.1,
+        "Monitoring & Observability": 7.8,
+        "Strategic Alignment": 7.5,
+        "AI/ML Testing Capabilities": 6.6
+      },
+      "detailedMetrics": {
+        "testExecutionFrequency": "Daily",
+        "codeCoverage": 81.4,
+        "defectDetectionRate": 86.9,
+        "meanTimeToRepair": 2.8,
+        "automationCoverage": 74.2,
+        "falsePositiveRate": 3.7,
+        "testMaintainability": 7.6,
+        "businessValue": "High",
+        "teamMaturity": "Advanced",
+        "strategicAlignment": "Good"
+      },
+      "recommendations": [
+        "Implement visual regression testing",
+        "Enhance data quality testing",
+        "Expand performance test coverage"
+      ],
+      "riskFactors": [
+        "Large dataset processing complexity",
+        "Real-time analytics requirements"
+      ],
+      "businessMetrics": {
+        "annualROI": 1650000,
+        "timeSavedPerMonth": 165,
+        "defectsPrevented": 28,
+        "costPerDefect": 11000
+      }
+    },
+    {
+      "id": "iot-device-manager",
+      "name": "IoT Device Manager",
+      "type": "Cloud Platform",
+      "technology": "Node.js/AWS IoT/DynamoDB",
+      "complexity": "Very High",
+      "criticality": "High",
+      "totalScore": 6.9,
+      "percentage": 69.0,
+      "maturityLevel": "Level 3: Defined",
+      "maturityLevelNumber": 3,
+      "riskLevel": "Medium",
+      "automationROI": "Medium",
+      "categoryScores": {
+        "Automation Implementation": 7.1,
+        "Technology & Architecture": 7.8,
+        "Test Coverage & Quality": 6.5,
+        "Security & Compliance": 7.2,
+        "Performance & Reliability": 6.8,
+        "Business Impact & ROI": 7.0,
+        "Team & Process Integration": 6.3,
+        "Data Management": 7.1,
+        "Monitoring & Observability": 7.4,
+        "Strategic Alignment": 6.7,
+        "AI/ML Testing Capabilities": 6.0
+      },
+      "detailedMetrics": {
+        "testExecutionFrequency": "Daily",
+        "codeCoverage": 73.6,
+        "defectDetectionRate": 82.1,
+        "meanTimeToRepair": 4.2,
+        "automationCoverage": 66.9,
+        "falsePositiveRate": 5.8,
+        "testMaintainability": 6.8,
+        "businessValue": "High",
+        "teamMaturity": "Intermediate",
+        "strategicAlignment": "Good"
+      },
+      "recommendations": [
+        "Implement device simulation testing",
+        "Enhance edge case scenario coverage",
+        "Improve monitoring and alerting"
+      ],
+      "riskFactors": [
+        "Device connectivity variability",
+        "Scalability testing complexity",
+        "Edge computing challenges"
+      ],
+      "businessMetrics": {
+        "annualROI": 1320000,
+        "timeSavedPerMonth": 132,
+        "defectsPrevented": 24,
+        "costPerDefect": 9500
+      }
+    },
+    {
+      "id": "legacy-mainframe-interface",
+      "name": "Legacy Mainframe Interface",
+      "type": "API/Microservice",
+      "technology": "COBOL/Java Bridge/DB2",
+      "complexity": "Very High",
+      "criticality": "Critical",
+      "totalScore": 4.2,
+      "percentage": 42.0,
+      "maturityLevel": "Level 2: Managed",
+      "maturityLevelNumber": 2,
+      "riskLevel": "Very High",
+      "automationROI": "Very Low",
+      "categoryScores": {
+        "Automation Implementation": 3.8,
+        "Technology & Architecture": 4.1,
+        "Test Coverage & Quality": 4.5,
+        "Security & Compliance": 5.2,
+        "Performance & Reliability": 4.8,
+        "Business Impact & ROI": 4.0,
+        "Team & Process Integration": 3.5,
+        "Data Management": 4.7,
+        "Monitoring & Observability": 3.9,
+        "Strategic Alignment": 4.3,
+        "AI/ML Testing Capabilities": 2.8
+      },
+      "detailedMetrics": {
+        "testExecutionFrequency": "Quarterly",
+        "codeCoverage": 38.2,
+        "defectDetectionRate": 62.8,
+        "meanTimeToRepair": 18.7,
+        "automationCoverage": 22.1,
+        "falsePositiveRate": 18.4,
+        "testMaintainability": 3.9,
+        "businessValue": "Critical",
+        "teamMaturity": "Limited",
+        "strategicAlignment": "Poor"
+      },
+      "recommendations": [
+        "Develop modernization roadmap",
+        "Implement basic automation framework",
+        "Establish comprehensive documentation",
+        "Plan for gradual system replacement"
+      ],
+      "riskFactors": [
+        "Legacy technology constraints",
+        "Limited expertise availability",
+        "High business dependency",
+        "Complex integration requirements"
+      ],
+      "businessMetrics": {
+        "annualROI": 180000,
+        "timeSavedPerMonth": 18,
+        "defectsPrevented": 8,
+        "costPerDefect": 25000
+      }
+    }
+  ]
+}
