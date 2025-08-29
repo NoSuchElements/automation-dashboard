@@ -1,0 +1,154 @@
+{
+  "categories": [
+    {
+      "name": "Automation Implementation",
+      "weight": 15,
+      "description": "Core automation capabilities, tool maturity, execution frameworks, and automation infrastructure",
+      "icon": "fas fa-robot"
+    },
+    {
+      "name": "Technology & Architecture",
+      "weight": 13,
+      "description": "Technology stack compatibility, infrastructure readiness, and architectural alignment",
+      "icon": "fas fa-cogs"
+    },
+    {
+      "name": "Test Coverage & Quality",
+      "weight": 12,
+      "description": "Comprehensiveness and effectiveness of test coverage across all application layers",
+      "icon": "fas fa-shield-alt"
+    },
+    {
+      "name": "Security & Compliance",
+      "weight": 11,
+      "description": "Automated security testing and regulatory compliance validation",
+      "icon": "fas fa-lock"
+    },
+    {
+      "name": "Performance & Reliability",
+      "weight": 10,
+      "description": "Performance testing automation and system resilience validation",
+      "icon": "fas fa-tachometer-alt"
+    },
+    {
+      "name": "Business Impact & ROI",
+      "weight": 9,
+      "description": "Business value measurement, ROI analysis, and strategic impact assessment",
+      "icon": "fas fa-chart-line"
+    },
+    {
+      "name": "Team & Process Integration",
+      "weight": 8,
+      "description": "Team collaboration, process integration, and organizational alignment",
+      "icon": "fas fa-users"
+    },
+    {
+      "name": "Data Management",
+      "weight": 7,
+      "description": "Test data lifecycle management and quality automation",
+      "icon": "fas fa-database"
+    },
+    {
+      "name": "Monitoring & Observability",
+      "weight": 6,
+      "description": "Test execution monitoring, analytics, and observability practices",
+      "icon": "fas fa-chart-bar"
+    },
+    {
+      "name": "Strategic Alignment",
+      "weight": 5,
+      "description": "Business strategy and technology roadmap alignment",
+      "icon": "fas fa-compass"
+    },
+    {
+      "name": "AI/ML Testing Capabilities",
+      "weight": 4,
+      "description": "Artificial intelligence and machine learning enhanced testing capabilities",
+      "icon": "fas fa-brain"
+    }
+  ],
+  "maturityModel": {
+    "levels": [
+      {
+        "level": 1,
+        "name": "Initial",
+        "description": "Unpredictable, poorly controlled, and reactive",
+        "characteristics": [
+          "Ad hoc testing processes",
+          "Unpredictable results",
+          "High dependency on individual heroics",
+          "Limited documentation",
+          "Reactive approach to quality"
+        ],
+        "scoreRange": {
+          "min": 0,
+          "max": 2.0
+        }
+      },
+      {
+        "level": 2,
+        "name": "Managed",
+        "description": "Characterized by project-level planning and management",
+        "characteristics": [
+          "Basic project management",
+          "Requirements are managed",
+          "Basic testing standards",
+          "Some process documentation",
+          "Reactive but managed"
+        ],
+        "scoreRange": {
+          "min": 2.1,
+          "max": 4.0
+        }
+      },
+      {
+        "level": 3,
+        "name": "Defined",
+        "description": "Characterized by organization-wide standards",
+        "characteristics": [
+          "Organization-wide standards",
+          "Consistent processes",
+          "Proactive approach",
+          "Comprehensive documentation",
+          "Training programs established"
+        ],
+        "scoreRange": {
+          "min": 4.1,
+          "max": 6.0
+        }
+      },
+      {
+        "level": 4,
+        "name": "Quantitative",
+        "description": "Characterized by quantitative management",
+        "characteristics": [
+          "Quantitative process control",
+          "Metrics-driven decisions",
+          "Predictable quality",
+          "Performance optimization",
+          "Statistical process control"
+        ],
+        "scoreRange": {
+          "min": 6.1,
+          "max": 8.0
+        }
+      },
+      {
+        "level": 5,
+        "name": "Optimizing",
+        "description": "Focus on continuous process improvement",
+        "characteristics": [
+          "Continuous improvement",
+          "Innovation adoption",
+          "Organizational learning",
+          "Defect prevention focus",
+          "Technology leadership"
+        ],
+        "scoreRange": {
+          "min": 8.1,
+          "max": 10.0
+        }
+      }
+    ]
+  }
+}
